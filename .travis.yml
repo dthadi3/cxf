@@ -16,4 +16,4 @@ install:
   - mvn process-classes compile -Pnochecks -DskipTests > cxf.log
   - tail -300 cxf.log
   #tests
-#  - mvn -f pom.xml install -Djava.awt.headless=true -fae -B
+  - mvn -f pom.xml install -Djava.awt.headless=true -fae -B
